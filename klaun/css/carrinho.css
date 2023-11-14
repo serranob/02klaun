@@ -1,0 +1,163 @@
+
+
+#carrinho-content {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: rgb(117, 14, 17);
+    font-weight: bold;
+}
+
+#itens {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    width: 52%;
+    font-size: 18px;
+}
+
+#resumo-area {
+    background-color: beige;
+    width: 30%;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(117, 14, 17);
+}
+
+#resumo-caixa {
+    background-color: rgba(223, 219, 184, 0.815);
+    width: 300px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    padding: 8px;
+}
+
+#resumo-linha0 {
+    margin-top: 10px;
+}
+
+.resumo-linha {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    border-bottom: 3px solid rgb(198, 22, 27);
+}
+
+#calcular-frete {
+    width: 102px;
+    margin: 0;
+    border: none;
+    background-color: rgb(198, 22, 27);
+    color: beige;
+    font-weight: bold;
+}
+
+#inserir-cupom {
+    margin: 0;
+    border: none;
+    width: 102px;
+}
+
+#resumo-linha3 {
+    border: none;
+}
+
+#valor-total {
+    text-align: right;
+    width: 150px;
+}
+
+
+#parcelas {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.titulo-carrinho {
+    margin-top: 5px;
+    color: rgb(198, 22, 27);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.linha {
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(198, 22, 27);
+}
+
+.imagem-produto {
+    width: 100px;
+}
+
+.coluna-produto {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna-resto {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantidade-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige(223, 219, 177, 0.815);
+}
+
+.texto-quantidade {
+    background-color: beige;
+}
+
+.botao-quantidade {
+    width: 20px;
+    font-size: 20px;
+    padding: none;
+    border: none;
+    margin: 4px;
+    color: rgb(117, 14, 17);
+    background-color: beige;
+}
+
+.botao-lixo {
+    border: none;
+    background-color: transparent;
+}
+
+#continuar-finalizar {
+    margin-top: 100px;
+    background-color: beige;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+#finalizar-compra {
+    font-size: 18px;
+    height: 80%;
+    border: none;
+    background-color: rgb(198, 22, 27);
+    padding: 6px;
+    color: beige;
+    margin-right: 40px;
+}
+
+#continuar {
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+

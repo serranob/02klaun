@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    all:unset;
+}    
+a:hover{
+    padding: 4px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+button:hover{
+    padding: 4px;
+    cursor: pointer;
+}
+   
+#site{
+    justify-content: center;
+}
+#inner-container{
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#menu{
+    display: flex;
+    justify-content: flex-start;
+    width: 33.3%;
+}
+#lista-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.menu-itens{
+    list-style-type: none;
+}
+
+
+#logo-header{
+    display: flex;
+    justify-content: center;
+    width: 33.3%;
+    font-weight: bold;
+}
+
+#icones{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 33.3%;
+}
+
+
+
+#sobre-texto{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.ptexto{
+    margin-bottom: 24px;
+    text-indent: 20px;
+}
+#sobre-adicionais{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.adicional{
+    border: 2px solid ;
+    width:26%;
+    line-height: 19px;
+    text-align: justify;
+    padding: 10px;
+}
+#sobre-desenvolvimento{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: justify;
+}
+.desenvolvedor{
+    width: 44.5%;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-top: 25px;
+}
+
+#esquerda-footer{
+    margin-left: 20px;
+    width: 33.3%;
+}
+#newsletter-box{
+    width: 35%;
+    display: flex;
+    border-bottom: 2px solid white;
+}
+input[type=email]{
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+#email-button{
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+}
+#link-insta{
+    font-weight: bold;
+    text-decoration: none;
+}
+#logo-footer{
+    font-weight:bold ;
+    display: flex;
+    justify-content: center;
+    width: 33.3%;
+}
+#direita-footer{
+    margin-right: 20px;
+    width: 33.3%;
+}
+.endereco{
+    text-align: end;
+}

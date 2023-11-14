@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/resumo.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Resumo</title>
+</head>
+
+<body>
+    <div id="site">
+
+        <header>
+            <div id="container">
+                <div id="inner-container">
+
+                    <div id="menu">
+                        <ul id="lista-menu">
+                            <li class="menu-itens"><a href="/shop/shop.html">shop</a></li>
+                            <li class="menu-itens">arquivo</li>
+                            <li class="menu-itens">sobre</li>
+                        </ul>
+                    </div>
+
+                    <div id="logo-header">
+                        <div>KLOUN</div>
+                    </div>
+
+                    <div id="icones">
+                        <div id="buscar" class="icones-itens">buscar</div>
+                        <div id="login" class="icones-itens">login</div>
+                        <div id="carrinho" class="icones-itens">carrinho</div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div id="meio">
+            <div id="meu-pedido">
+                <div id="descri-preco">
+                    <p class="titulo">meu pedido</p>
+                    <div id="topo-descri" class="descri-preco-itens">
+                        <p>descrição</p>
+                        <p>preço</p>
+                    </div>
+                    <div id="linha1-descri-preco" class="descri-preco-itens">
+                        <p>CAMISETA A (1)</p>
+                        <p>R$99,90</p>
+                    </div>
+                    <div id="linha2-descri-preco" class="descri-preco-itens">
+                        <p>CAMISETA B (1)</p>
+                        <p>R$99,90</p>
+                    </div>
+
+                    <div id="linha3-descri-preco" class="descri-preco-itens">
+                        <p>PAR DE MEIAS A (5)</p>
+                        <p>R$99,90</p>
+                    </div>
+
+                </div>
+                <div id="endereco-entrega">
+                    <p class="titulo">endereço</p>
+                    <div class="item-endereco">
+                        <p class="titulo-item">CEP:</p>
+                        <p> 18.200-000</p>
+                    </div>
+                    <div class="item-endereco">
+                        <p class="titulo-item">PAÍS: </p>
+                        <p>Brasil</p>
+                    </div>
+                    <div class="item-endereco">
+                        <p class="titulo-item">ESTADO: </p>
+                        <p>São Paulo</p>
+                    </div>
+                    <div class="item-endereco">
+                        <p class="titulo-item">CIDADE: </p>
+                        <p>Itapetininga</p>
+                    </div>
+                    <div class="item-endereco">
+                        <p class="titulo-item">BAIRRO: </p>
+                        <p>Jardim Jardim</p>
+                    </div>
+                    <div class="item-endereco">
+                        <p class="titulo-item">LOGRADOURO: </p>
+                        <p>Rua das Flores</p>
+                    </div>
+                    <div class="item-endereco">
+                        <p class="titulo-item">COMPLEMENTO: </p>
+                        <p>-</p>
+                    </div>
+                    <div class="item-endereco">
+                        <p class="titulo-item">NÚMERO: </p>
+                        <p>1000</p>
+                    </div>
+                    <a href="a" id="alterar-endereco">alterar endereço de entrega</a>
+                </div>
+            </div>
+
+            <div id="resumoepagamento">
+                <div id="resumo-pedido">
+                    <p class="titulo">resumo do pedido</p>
+                    <div class="item-resumo-pedido">
+                        <p>subtotal</p>
+                        <p>(+)R$1000,00</p>
+                    </div>
+                    <div class="item-resumo-pedido">
+                        <p>frete</p>
+                        <p>(+)R$1000,00</p>
+                    </div>
+                    <div class="item-resumo-pedido">
+                        <p>cupom</p>
+                        <p>(-)R$500,00</p>
+                    </div>
+                    <div class="item-resumo-pedido" id="total-resumo-pedido">
+                        <p>Total</p>
+                        <p>R$1500,00</p>
+                    </div>
+                </div>
+                <div id="forma-pagamento">
+                    <p class="titulo">forma de pagamento</p>
+                    <form action="" id="boleto-cartao-pix">
+                        <div class="item-pagamento">
+                            <input type="radio" id="boleto" name="pagamento">
+                            <label for="boleto">boleto bancário</label>
+                        </div>
+                        <div class="item-pagamento">
+                            <input type="radio" id="cartao" name="pagamento">
+                            <label for="cartao">cartão de crédito</label>
+                        </div>
+                        <div class="item-pagamento">
+                            <input type="radio" id="pix" name="pagamento">
+                            <label for="pix">pix</label>
+                        </div>
+                    </form>
+                    <div class="item-pagamento" id="finalizar-pedido">
+                        <button id="botao-finalizar-pedido">
+                            <p>finalizar pedido</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div id="esquerda-footer">
+                <div id="newsletter">
+                    <p>newsletter</p>
+                    <div id="newsletter-box">
+                        <input type="email" name="" id="email-newsletter" placeholder="e-mail">
+                        <button id="email-button">
+                            &#62;
+                        </button>
+
+                    </div>
+                </div>
+                <div id="insta">
+                    <img id="icon-insta" src="" alt="">
+                    <a id="link-insta" href="a">@klaun</a>
+                </div>
+            </div>
+
+            <div id="logo-footer">
+                <div>KLOUN</div>
+            </div>
+
+            <div id="direita-footer">
+                <p class="endereco">BRASIL</p>
+                <p class="endereco">Itapetininga / SP</p>
+                <p class="endereco">Rua ajsçlkfjasdlç, 1384</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    all:unset;
+}    
+a:hover{
+    padding: 4px;
+    cursor: pointer;
+    background-color: beige;
+    color: rgb(198, 22, 27);
+}
+button:hover{
+    padding: 4px;
+    cursor: pointer;
+}
+   
+#site{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#inner-container{
+    background-color: rgb(198, 22, 27);
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 33.3%;
+}
+#lista-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.menu-itens{
+    list-style-type: none;
+}
+
+
+#logo-header{
+    display: flex;
+    justify-content: center;
+    width: 33.3%;
+    font-weight: bold;
+    align-items: center;
+}
+
+#icones{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    width: 33.3%;
+    background-color: transparent;
+}
+
+.icone-botao{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    height: 30px;
+}
+.cor{
+    fill: beige;
+}
+#login{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+#icone-palhaco{
+    background-color: transparent;
+    background-color: none;
+    height: 24px;
+}
