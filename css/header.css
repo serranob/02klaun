@@ -1,27 +1,30 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-a{
-    all:unset;
-}    
-a:hover{
+
+a {
+    all: unset;
+}
+
+a:hover {
     padding: 4px;
     cursor: pointer;
     background-color: beige;
     color: rgb(198, 22, 27);
 }
-button:hover{
+
+button:hover {
     padding: 4px;
     cursor: pointer;
 }
-   
-#site{
+
+#site {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-#inner-container{
+
+#inner-container {
     background-color: rgb(198, 22, 27);
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,23 +33,25 @@ button:hover{
     padding: 20px;
 }
 
-#menu{
+#menu {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 33.3%;
 }
-#lista-menu{
+
+#lista-menu {
     display: flex;
     list-style: none;
     gap: 20px;
 }
-.menu-itens{
+
+.menu-itens {
     list-style-type: none;
 }
 
 
-#logo-header{
+#logo-header {
     display: flex;
     justify-content: center;
     width: 33.3%;
@@ -54,7 +59,7 @@ button:hover{
     align-items: center;
 }
 
-#icones{
+#icones {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -63,22 +68,34 @@ button:hover{
     background-color: transparent;
 }
 
-.icone-botao{
+.icones-itens {
+    display: flex;
+}
+
+.icone-botao {
     display: flex;
     align-items: center;
     background-color: transparent;
     border: none;
     height: 30px;
 }
-.cor{
+
+.link-search-login-carrinho{
+    width: 100%;
+    height: 100%;
+}
+
+.cor {
     fill: beige;
 }
-#login{
+
+#login {
     background-color: transparent;
     display: flex;
     align-items: center;
 }
-#icone-palhaco{
+
+#icone-palhaco {
     background-color: transparent;
     background-color: none;
     height: 24px;
