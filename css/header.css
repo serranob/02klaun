@@ -18,7 +18,6 @@ button:hover {
 }
 
 
-
 #site {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,7 +58,7 @@ button:hover {
     align-items: center;
 }
 
-#logo-header > a:hover{
+#logo-header>a:hover {
     cursor: pointer;
 }
 
@@ -78,12 +77,11 @@ button:hover {
 
 .icones-itens>a {}
 
-.icones-itens>a:hover {
+.icones-itens:hover {
     background-color: beige;
-    fill: rgb(198, 22, 27);
 }
 
-.cor:hover {
+.icones-itens:hover .cor{
     fill: rgb(198, 22, 27);
 }
 
@@ -110,8 +108,27 @@ button:hover {
     align-items: center;
 }
 
-#icone-palhaco {
-    background-color: transparent;
-    background-color: none;
+#icone-palhaco-container{
+    position: relative;
+}
+
+#icone-palhaco-container img{
     height: 24px;
+}
+
+#icone-palhaco-container img:last-child{
+    display: none;
+}
+
+#icone-palhaco-container:hover img:first-child{
+    display: none;
+}
+
+#icone-palhaco-container:hover img:last-child{
+    display: block;
+    background-color: beige;
+}
+
+.icone-palhaco {
+
 }
