@@ -3,7 +3,7 @@
     padding: 0;
 }
 
- a {
+a {
     all: unset;
 }
 
@@ -59,6 +59,10 @@ button:hover {
     align-items: center;
 }
 
+#logo-header > a:hover{
+    cursor: pointer;
+}
+
 #icones {
     display: flex;
     align-items: center;
@@ -72,16 +76,14 @@ button:hover {
     display: flex;
 }
 
-.icones-itens>a {
-    
-}
+.icones-itens>a {}
 
 .icones-itens>a:hover {
     background-color: beige;
     fill: rgb(198, 22, 27);
 }
 
-.cor:hover{
+.cor:hover {
     fill: rgb(198, 22, 27);
 }
 
