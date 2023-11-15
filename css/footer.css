@@ -17,7 +17,7 @@ footer{
     display: flex;
     border-bottom: 2px solid white;
 }
-input[type=email]{
+#email-newsletter{
     width: 100%;
     font-size: 15px;
     color: white;
