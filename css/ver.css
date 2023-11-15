@@ -27,6 +27,7 @@ li{
     margin: none;
     padding: none;
     width: 100%;
+    margin-bottom: 4.5%;
 }
 
 #imagens > button > img{
@@ -39,6 +40,7 @@ li{
     background-color: beige;
     width: 35%;
     height: 100%;
+    margin-right: 20px;
     display: flex;
     justify-content: center;
 }
