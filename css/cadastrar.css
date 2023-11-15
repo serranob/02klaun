@@ -1,5 +1,4 @@
-
-#topo-dashboard{
+#topo-dashboard {
     padding: 11px 0;
     display: flex;
     background-color: beige;
@@ -8,7 +7,8 @@
     font-family: Arial, Helvetica, sans-serif;
     height: 50px;
 }
-#titulo-dashboard{
+
+#titulo-dashboard {
     justify-content: center;
     color: rgb(198, 22, 27);
     font-weight: bold;
@@ -17,7 +17,7 @@
     margin-right: 10px;
 }
 
-#pesquisa-dashboard{
+#pesquisa-dashboard {
     display: flex;
     justify-content: center;
     background-color: beige;
@@ -25,38 +25,44 @@
     width: 300px;
     gap: 5px;
 }
-#pesquisar{
+
+#pesquisar {
     background-color: beige;
-    border: 0 solid rgb(198, 22, 27);;
+    border: 0 solid rgb(198, 22, 27);
+    ;
     color: rgb(198, 22, 27);
     width: 200px;
 }
-.botao-dashboard{
+
+.botao-dashboard {
     background-color: beige;
     border: 0 none transparent;
 
 }
 
-#carrinho-conta-dashboard{
+#carrinho-conta-dashboard {
     width: 200px;
     display: flex;
     justify-content: center;
     background-color: beige;
     gap: 30px;
 }
-#conteudo-dashboard{
+
+#conteudo-dashboard {
     display: flex;
-    background-color:  rgb(198, 22, 27);
+    background-color: rgb(198, 22, 27);
 }
 
-#produtos{
+#produtos {
     background-color: blueviolet;
 }
-.linha{
+
+.linha {
     display: flex;
 }
-nav{
-    background-color:beige;
+
+nav {
+    background-color: beige;
     color: rgb(198, 22, 27);
     width: 40%;
     display: flex;
@@ -67,27 +73,36 @@ nav{
     border-top: 3px;
     font-size: 20px;
 }
-#alteracao{
+
+#alteracao {
     background-color: beige;
     margin-bottom: 40px;
 }
-#relatorios{
+
+#relatorios {
     background-color: beige;
 }
-.caixas-nav{
+
+.caixas-nav {
     width: 60%;
     border-bottom: 3px solid rgb(198, 22, 27);
-    padding-bottom:18px;
+    padding-bottom: 18px;
 }
-.titulo-nav{
+
+.titulo-nav {
     margin-bottom: 8px;
     font-size: 28px;
     font-weight: bold;
 }
-.itens-alt-rel{
+
+.itens-alt-rel {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-#cadastrar-produto{
+
+#cadastrar-produto {
     color: rgb(198, 22, 27);
     background-color: beige;
     padding-left: 40px;
@@ -95,19 +110,26 @@ nav{
     width: 100%;
     height: 600px;
 }
-.titulo-cadastro{
+
+.titulo-cadastro {
     margin-bottom: 8px;
     font-weight: bold;
     font-size: 30px;
 }
-.item-cadastro{
+
+.item-cadastro {
     margin-bottom: 25px;
 }
 
-#descricao, #preco, #ficha-tecnica, #selecione, #imagem-produto{
+#descricao,
+#preco,
+#ficha-tecnica,
+#selecione,
+#imagem-produto {
     width: 300px;
 }
-#botao-cadastrar{
+
+#botao-cadastrar {
     background-color: transparent;
     width: 100px;
     height: 25px;
@@ -117,10 +139,3 @@ nav{
     border-radius: 0;
     border-style: 0;
 }
-
-
-
-
-
-
-
