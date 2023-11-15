@@ -1,4 +1,4 @@
-footer{
+footer {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,23 +8,26 @@ footer{
     padding-top: 25px;
 }
 
-#esquerda-footer{
+#esquerda-footer {
     margin-left: 20px;
     width: 33.3%;
 }
-#newsletter-box{
+
+#newsletter-box {
     width: 35%;
     display: flex;
     border-bottom: 2px solid white;
 }
-#email-newsletter{
+
+#email-newsletter {
     width: 100%;
     font-size: 15px;
     color: white;
     border: none;
     background-color: transparent;
 }
-#email-button{
+
+#email-button {
     border: none;
     font-weight: bold;
     color: white;
@@ -32,20 +35,25 @@ footer{
     width: 20px;
     height: 20px;
 }
-#link-insta{
+
+#link-insta {
     font-weight: bold;
     text-decoration: none;
 }
-#logo-footer{
-    font-weight:bold ;
+
+#logo-footer {
+    font-weight: bold;
     display: flex;
     justify-content: center;
     width: 33.3%;
+    height: 70px;
 }
-#direita-footer{
+
+#direita-footer {
     margin-right: 20px;
     width: 33.3%;
 }
-.endereco{
+
+.endereco {
     text-align: end;
 }
