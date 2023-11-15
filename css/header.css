@@ -3,21 +3,21 @@
     padding: 0;
 }
 
-a {
+ a {
     all: unset;
 }
 
-a:hover {
-    padding: 4px;
+.menu-itens>a:hover {
     cursor: pointer;
     background-color: beige;
     color: rgb(198, 22, 27);
 }
 
 button:hover {
-    padding: 4px;
     cursor: pointer;
 }
+
+
 
 #site {
     justify-content: center;
@@ -72,6 +72,19 @@ button:hover {
     display: flex;
 }
 
+.icones-itens>a {
+    
+}
+
+.icones-itens>a:hover {
+    background-color: beige;
+    fill: rgb(198, 22, 27);
+}
+
+.cor:hover{
+    fill: rgb(198, 22, 27);
+}
+
 .icone-botao {
     display: flex;
     align-items: center;
@@ -80,7 +93,7 @@ button:hover {
     height: 30px;
 }
 
-.link-search-login-carrinho{
+.link-search-login-carrinho {
     width: 100%;
     height: 100%;
 }
