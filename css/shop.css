@@ -82,7 +82,7 @@ nav {
     margin: 8px;
 }
 
-a > img {
+.product-block > div > a > img {
     width: 100%;
 }
 
