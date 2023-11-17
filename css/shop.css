@@ -2,7 +2,7 @@
 
 #meio {
     display: flex;
-    background-color: rgba(223, 219, 184, 0.815);
+    background-color: beige;
     height: 100%;
     width: 100%;
 }
@@ -71,15 +71,16 @@ nav {
 
 
 .product-line {
-    background-color: beige;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     color: rgb(117, 14, 17);
 }
 
 .product-block {
+    border: 6px solid beige;
     width: 33%;
-    margin: 8px;
+    padding: 20px;
 }
 
 .product-block > div > a > img {
