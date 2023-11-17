@@ -62,6 +62,10 @@ button:hover {
     cursor: pointer;
 }
 
+#imagem-logo-header{
+    height: 90px;
+}
+
 #icones {
     display: flex;
     align-items: center;
