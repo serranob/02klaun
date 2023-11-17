@@ -79,8 +79,6 @@ button:hover {
     display: flex;
 }
 
-.icones-itens>a {}
-
 .icones-itens:hover {
     background-color: beige;
 }
