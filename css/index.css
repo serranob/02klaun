@@ -7,7 +7,9 @@
     justify-content: center;
     align-items: center;
     background-color: orange;
-    height: 450px;
+    background-image: url("/imagens/Jan_Matejko\,_Stańczyk.jpg");
+    background-size: cover;
+    height: 500px;
 }
 #latest-drop-meio{
     display: flex;
@@ -19,10 +21,12 @@
     height: 55%;
     width: 40%;
     font-size: 18px;
+    color: white;
 }
 #botao-drop{
     background-color: transparent;
     border: 3px solid white;
+    color: white;
     width: 60%;
     font-size: 18px;
     margin-top: 10px;
@@ -31,6 +35,7 @@
 #botao-drop:hover{
     cursor: pointer;
     background-color: white;
+    color: rgb(198, 22, 27);
 }
 
 #galeria{
