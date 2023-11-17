@@ -40,7 +40,7 @@
 
 }
 
-#carrinho-conta-dashboard {
+#config-conta-dashboard {
     width: 200px;
     display: flex;
     justify-content: center;
@@ -121,15 +121,12 @@ nav {
     margin-bottom: 25px;
 }
 
-#textarea-ficha-tecnica{
-    width: 60%;
-}
-
 #descricao,
 #preco,
 #ficha-tecnica,
 #selecione,
-#imagem-produto {
+#imagem-produto,
+#textarea-ficha-tecnica {
     width: 60%;
 }
 
@@ -142,4 +139,9 @@ nav {
     border: 3px solid rgb(198, 22, 27);
     border-radius: 0;
     border-style: 0;
+}
+
+#margem-inferior{
+    height: 30px;
+    background-color: beige;
 }
