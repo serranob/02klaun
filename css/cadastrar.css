@@ -121,19 +121,23 @@ nav {
     margin-bottom: 25px;
 }
 
+#textarea-ficha-tecnica{
+    width: 60%;
+}
+
 #descricao,
 #preco,
 #ficha-tecnica,
 #selecione,
 #imagem-produto {
-    width: 300px;
+    width: 60%;
 }
 
 #botao-cadastrar {
     background-color: transparent;
-    width: 100px;
-    height: 25px;
-    margin-left: 100px;
+    width: 110px;
+    height: 35px;
+    margin-left: 25%;
     color: rgb(198, 22, 27);
     border: 3px solid rgb(198, 22, 27);
     border-radius: 0;
