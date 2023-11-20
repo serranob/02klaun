@@ -7,11 +7,6 @@ a {
     all: unset;
 }
 
-.menu-itens>a:hover {
-    cursor: pointer;
-    background-color: beige;
-    color: rgb(198, 22, 27);
-}
 
 button:hover {
     cursor: pointer;
@@ -47,8 +42,12 @@ button:hover {
 
 .menu-itens {
     list-style-type: none;
+    font-weight: bold;
 }
 
+.menu-itens>a:hover {
+    cursor: pointer;
+}
 
 #logo-header {
     display: flex;
@@ -79,13 +78,6 @@ button:hover {
     display: flex;
 }
 
-.icones-itens:hover {
-    background-color: beige;
-}
-
-.icones-itens:hover .cor{
-    fill: rgb(198, 22, 27);
-}
 
 .icone-botao {
     display: flex;
@@ -110,23 +102,7 @@ button:hover {
     align-items: center;
 }
 
-#icone-palhaco-container{
-    position: relative;
-}
 
 #icone-palhaco-container img{
     height: 24px;
-}
-
-#icone-palhaco-container img:last-child{
-    display: none;
-}
-
-#icone-palhaco-container:hover img:first-child{
-    display: none;
-}
-
-#icone-palhaco-container:hover img:last-child{
-    display: block;
-    background-color: beige;
 }
