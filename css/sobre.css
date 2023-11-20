@@ -1,12 +1,21 @@
+#site {
+    background-color: beige;
+    color: rgb(117, 14, 17);
+}
 
+.titulo-sobre{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
 
-
-#sobre-texto{
+#sobre-texto {
     display: flex;
     justify-content: center;
-    margin: 20px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
 }
-#texto{
+
+#texto {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -14,28 +23,47 @@
     line-height: 20px;
     letter-spacing: 0.5px;
 }
-.ptexto{
+
+.ptexto {
     margin-bottom: 24px;
     text-indent: 20px;
 }
-#sobre-adicionais{
+
+#sobre-adicionais {
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
     width: 100%;
+    margin-bottom: 45px;
 }
-.adicional{
-    border: 2px solid ;
-    width:26%;
+
+.adicional {
+    border: 3px solid rgb(198, 22, 27);
+    width: 26%;
     line-height: 19px;
     text-align: justify;
-    padding: 10px;
+    padding: 0px 20px 20px 20px;
 }
-#sobre-desenvolvimento{
+
+#sobre-desenvolvimento {
     display: flex;
     width: 100%;
+    height: 200px;
     justify-content: space-around;
     text-align: justify;
+    margin-bottom: 80px;
 }
-.desenvolvedor{
+
+.nome{
+    font-weight: bolder;
+}
+
+.desenvolvedor {
     width: 44.5%;
+    display: flex;
+}
+
+.img-desenvolvedor{
+    margin-right: 5px;
+    height: 150px;
 }
