@@ -57,8 +57,10 @@ footer {
     font-weight: bold;
     display: flex;
     justify-content: center;
+    align-content: center;
     width: 33.3%;
-    height: 70px;
+    height: 120px;
+    padding-top: 5px;
 }
 
 #direita-footer {
