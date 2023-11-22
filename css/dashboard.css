@@ -105,6 +105,11 @@ nav {
     gap: 10px;
 }
 
+.link-alteracao-relatorio:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #carrinho-conta-dashboard {
     width: 200px;
     display: flex;

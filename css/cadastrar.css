@@ -83,6 +83,11 @@ nav {
     background-color: beige;
 }
 
+.link-alteracao-relatorio:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .caixas-nav {
     width: 60%;
     border-bottom: 3px solid rgb(198, 22, 27);
