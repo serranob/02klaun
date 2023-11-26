@@ -61,7 +61,7 @@ button:hover {
     cursor: pointer;
 }
 
-#imagem-logo-header{
+#imagem-logo-header {
     height: 80px;
 }
 
@@ -69,9 +69,16 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 30px;
     width: 33.3%;
     background-color: transparent;
+}
+
+#input-pesquisa {
+    background-color: transparent;
+    border: 1px solid beige;
+    height: 20px;
+    width: 40%;
+    border-radius: 8px;
 }
 
 .icones-itens {
@@ -80,6 +87,7 @@ button:hover {
 
 
 .icone-botao {
+    margin-left: 20px;
     display: flex;
     align-items: center;
     background-color: transparent;
@@ -103,6 +111,6 @@ button:hover {
 }
 
 
-#icone-palhaco-container img{
+#icone-palhaco-container img {
     height: 24px;
 }
