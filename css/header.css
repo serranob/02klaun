@@ -7,15 +7,13 @@ a {
     all: unset;
 }
 
-
 button:hover {
     cursor: pointer;
 }
 
-
 #site {
-    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
 }
 
 #inner-container {
@@ -52,9 +50,9 @@ button:hover {
 #logo-header {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 33.3%;
     font-weight: bold;
-    align-items: center;
 }
 
 #logo-header>a:hover {
@@ -85,7 +83,6 @@ button:hover {
     display: flex;
 }
 
-
 .icone-botao {
     margin-left: 20px;
     display: flex;
@@ -109,7 +106,6 @@ button:hover {
     display: flex;
     align-items: center;
 }
-
 
 #icone-palhaco-container img {
     height: 24px;

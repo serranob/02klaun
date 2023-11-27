@@ -1,51 +1,49 @@
 #topo-dashboard {
-    padding: 11px 0;
     display: flex;
-    background-color: beige;
     justify-content: space-evenly;
     align-items: center;
+    background-color: beige;
     font-family: Arial, Helvetica, sans-serif;
     height: 50px;
+    padding: 11px 0;
 }
 
 #titulo-dashboard {
+    width: 200px;
+    margin-right: 10px;
     justify-content: center;
     color: rgb(198, 22, 27);
     font-weight: bold;
     font-size: 20px;
-    width: 200px;
-    margin-right: 10px;
 }
 
 #area-pesquisa-dashboard {
     display: flex;
     justify-content: center;
-    background-color: beige;
-    color: rgb(198, 22, 27);
     width: 300px;
     gap: 5px;
+    background-color: beige;
+    color: rgb(198, 22, 27);
 }
 
 #pesquisar-dashboard {
+    width: 200px;
     background-color: beige;
     border: 0 solid rgb(198, 22, 27);
-    ;
     color: rgb(198, 22, 27);
-    width: 200px;
 }
 
 .botao-dashboard {
     background-color: beige;
     border: 0 none transparent;
-
 }
 
 #config-conta-dashboard {
     width: 200px;
     display: flex;
     justify-content: center;
-    background-color: beige;
     gap: 30px;
+    background-color: beige;
 }
 
 #conteudo-dashboard {
@@ -62,8 +60,6 @@
 }
 
 nav {
-    background-color: beige;
-    color: rgb(198, 22, 27);
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -72,6 +68,8 @@ nav {
     border-right: 3px solid rgb(198, 22, 27);
     border-top: 3px;
     font-size: 20px;
+    background-color: beige;
+    color: rgb(198, 22, 27);
 }
 
 #alteracao {
@@ -83,7 +81,7 @@ nav {
     background-color: beige;
 }
 
-.link-alteracao-relatorio:hover{
+.link-alteracao-relatorio:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -108,12 +106,12 @@ nav {
 }
 
 #cadastrar-produto {
+    width: 100%;
+    height: 600px;
     color: rgb(198, 22, 27);
     background-color: beige;
     padding-left: 40px;
     font-size: 22px;
-    width: 100%;
-    height: 600px;
 }
 
 .titulo-cadastro {
@@ -136,17 +134,17 @@ nav {
 }
 
 #botao-cadastrar {
-    background-color: transparent;
     width: 110px;
     height: 35px;
     margin-left: 25%;
     color: rgb(198, 22, 27);
+    background-color: transparent;
     border: 3px solid rgb(198, 22, 27);
     border-radius: 0;
     border-style: 0;
 }
 
-#margem-inferior{
+#margem-inferior {
     height: 30px;
     background-color: beige;
 }

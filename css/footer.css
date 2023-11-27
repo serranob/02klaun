@@ -9,13 +9,12 @@ footer {
     padding-bottom: 25px;
 }
 
-
 #esquerda-footer {
-    margin-left: 20px;
     width: 33.3%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 20px;
 }
 
 #newsletter-box {
@@ -41,7 +40,6 @@ footer {
     height: 20px;
 }
 
-
 #link-insta {
     font-size: 22px;
     font-weight: bold;
@@ -54,33 +52,33 @@ footer {
 }
 
 #logo-footer {
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     width: 33.3%;
     height: 120px;
     padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
 }
 
 #direita-footer {
-    margin-right: 20px;
     width: 33.3%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: end;
+    margin-right: 20px;
 }
 
 .endereco {
     text-align: end;
 }
 
-#fale-conosco{
+#fale-conosco {
     font-weight: bold;
 }
 
-#fale-conosco:hover{
+#fale-conosco:hover {
     text-decoration: underline;
     cursor: pointer;
 }

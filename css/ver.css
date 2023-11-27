@@ -1,10 +1,8 @@
-
-
-
-li{
+li {
     list-style: none;
 }
-#produto-content{
+
+#produto-content {
     display: flex;
     background-color: beige;
     justify-content: center;
@@ -13,7 +11,8 @@ li{
     width: 100%;
     padding-bottom: 200px;
 }
-#imagens{
+
+#imagens {
     background-color: beige;
     width: 10%;
     height: 100%;
@@ -22,7 +21,7 @@ li{
     justify-content: space-between;
 }
 
-#imagens > button {
+#imagens>button {
     border: none;
     margin: none;
     padding: none;
@@ -30,13 +29,12 @@ li{
     margin-bottom: 4.5%;
 }
 
-#imagens > button > img{
+#imagens>button>img {
     width: 100%;
     height: 100%;
 }
 
-
-#imagem-exibida{
+#imagem-exibida {
     background-color: beige;
     width: 35%;
     height: 100%;
@@ -45,12 +43,12 @@ li{
     justify-content: center;
 }
 
-#imagem-exibida > img{
+#imagem-exibida>img {
     width: 90%;
     height: auto;
 }
 
-.seta{
+.seta {
     display: flex;
     width: 5%;
     justify-content: center;
@@ -58,7 +56,7 @@ li{
     font-weight: bold;
 }
 
-.botao-seta{
+.botao-seta {
     width: 100%;
     background-color: transparent;
     border: none;
@@ -67,49 +65,50 @@ li{
     color: rgb(198, 22, 27);
 }
 
-#sobre-produto{
+#sobre-produto {
     color: rgb(198, 22, 27);
     background-color: beige;
-    width:30%;
+    width: 30%;
 }
 
-#titulo-produto{
+#titulo-produto {
     font-weight: bold;
     font-size: 28px;
     margin-bottom: 20px;
 }
 
-#preco-produto{
+#preco-produto {
     font-weight: bold;
     font-size: 18px;
 }
 
-#parcela-produto{
+#parcela-produto {
     font-size: 18px;
     margin-top: 10px;
 }
 
-#info-produto{
+#info-produto {
     font-size: 15px;
     margin: 23px 0px;
 }
 
-#info-produto > li{
+#info-produto>li {
     padding-left: 20px;
     list-style: inside;
-} 
+}
 
-#tamanhos-produto{
+#tamanhos-produto {
     font-weight: bold;
 }
-#tamanhos-itens{
+
+#tamanhos-itens {
     display: flex;
     flex-direction: row;
     background-color: beige;
     justify-content: space-evenly;
 }
 
-.tamanho{
+.tamanho {
     height: 32px;
     width: 32px;
     margin: 10px;
@@ -123,7 +122,7 @@ li{
     color: beige;
 }
 
-#fim-produto{
+#fim-produto {
     display: flex;
     background-color: beige;
     justify-content: space-around;
@@ -137,9 +136,11 @@ li{
     justify-content: center;
     align-items: center;
 }
+
 .texto-quantidade {
     background-color: transparent;
 }
+
 .botao-quantidade {
     width: 20px;
     font-size: 20px;
@@ -149,14 +150,15 @@ li{
     background-color: transparent;
     color: rgb(198, 22, 27);
 }
-#comprar-produto{
+
+#comprar-produto {
     width: 50%;
 }
-#botao-comprar{
+
+#botao-comprar {
     width: 100%;
     height: 100%;
     background-color: rgb(198, 22, 27);
     color: beige;
     border: none;
 }
-

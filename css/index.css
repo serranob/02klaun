@@ -1,8 +1,4 @@
-
-
-
-
-#content-latest-drop{
+#content-latest-drop {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +8,8 @@
     background-position: center 20%;
     height: 500px;
 }
-#latest-drop-meio{
+
+#latest-drop-meio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +21,8 @@
     font-size: 18px;
     color: white;
 }
-#botao-drop{
+
+#botao-drop {
     background-color: transparent;
     border: 3px solid white;
     color: white;
@@ -33,13 +31,14 @@
     margin-top: 10px;
     padding: 7px;
 }
-#botao-drop:hover{
+
+#botao-drop:hover {
     cursor: pointer;
     background-color: white;
     color: rgb(198, 22, 27);
 }
 
-#galeria{
+#galeria {
     background-color: #26140c;
     display: flex;
     list-style: none;
@@ -49,7 +48,7 @@
     border: 0;
 }
 
-.imagem-galeria{
+.imagem-galeria {
     display: block;
     width: 500px;
     margin: 0 auto;

@@ -1,5 +1,3 @@
-
-
 #meio {
     display: flex;
     background-color: beige;
@@ -21,7 +19,7 @@ nav {
     color: rgb(117, 14, 17);
 }
 
-.titulo-filtro{
+.titulo-filtro {
     margin-left: 8px;
 }
 
@@ -66,10 +64,6 @@ nav {
     color: beige;
 }
 
-
-
-
-
 .product-line {
     background-color: white;
     display: flex;
@@ -83,7 +77,6 @@ nav {
     padding: 20px;
 }
 
-.product-block > div > a > img {
+.product-block>div>a>img {
     width: 100%;
 }
-

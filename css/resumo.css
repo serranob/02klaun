@@ -1,5 +1,3 @@
-
-
 #meio {
     background-color: beige;
     width: 100%;
@@ -93,7 +91,7 @@
 }
 
 #total-resumo-pedido {
-    border-top: 3px solid  rgb(198, 22, 27); 
+    border-top: 3px solid rgb(198, 22, 27);
     padding: 15px 0px;
     font-size: 19px;
     font-weight: bold;
@@ -129,4 +127,3 @@
     color: beige;
     font-size: 19px;
 }
-

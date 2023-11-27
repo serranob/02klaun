@@ -1,4 +1,3 @@
-
 #content {
     background-color: beige;
     width: 100%;
@@ -19,7 +18,7 @@
     height: 90%;
     display: flex;
     flex-wrap: nowrap;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     color: rgb(117, 14, 17);
     font-weight: bold;
     font-size: 17px;
@@ -31,7 +30,7 @@
     height: auto;
 }
 
-.item-login-cadastro{
+.item-login-cadastro {
     display: flex;
     flex-direction: column;
     margin-top: 14px;
@@ -44,15 +43,17 @@
     background-color: rgba(223, 219, 184, 0.815);
 }
 
-.item-login-cadastro > button{
+.item-login-cadastro>button {
     background-color: rgb(198, 22, 27);
     color: beige;
     font-weight: bold;
     font-size: 15px;
 }
 
-
-#botao-google-login{
+#botao-google-login,
+#botao-facebook-login,
+#botao-google-cadastro,
+#botao-facebook-cadastro {
     background-color: white;
     display: flex;
     justify-content: left;
@@ -61,42 +62,14 @@
     color: black;
 }
 
-#botao-facebook-login{
-    background-color: white;
-    display: flex;
-    justify-content: left;
-    gap: 20px;
-    align-items: center;
-    color: black;
-}
-
-#botao-google-cadastro{
-    background-color: white;
-    display: flex;
-    justify-content: left;
-    gap: 20px;
-    align-items: center;
-    color: black;
-}
-
-#botao-facebook-cadastro{
-    background-color: white;
-    display: flex;
-    justify-content: left;
-    gap: 20px;
-    align-items: center;
-    color: black;
-}
-
-.logo-rede-social{
+.logo-rede-social {
     height: 100%;
     background-color: white;
 }
 
-.login-rede-social{
+.login-rede-social {
     font-size: 50px;
 }
-
 
 #cadastrar {
     padding: 10px 0;
