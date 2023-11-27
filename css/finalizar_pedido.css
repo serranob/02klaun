@@ -23,16 +23,13 @@
 
 #topo-descri {
     display: flex;
+    font-weight: bold;
+    padding-bottom: 7px;
 }
 
 #descri-preco {
     background: beige;
     height: 50%;
-}
-
-#topo-descri {
-    font-weight: bold;
-    padding-bottom: 7px;
 }
 
 .descri-preco-itens {
@@ -65,6 +62,10 @@
     font-size: 15px;
     margin: 15px 0 0 20px;
     text-decoration: underline;
+}
+
+#alterar-endereco:hover{
+    cursor: pointer;
 }
 
 #resumoepagamento {

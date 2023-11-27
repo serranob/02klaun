@@ -115,6 +115,14 @@ nav {
     width: 100%;
 }
 
+.produto-nome {
+    font-size: 17px;
+}
+
+.produto-descricao {
+    font-size: 15px;
+}
+
 .linha {
     width: 80%;
     background-color: beige;
@@ -159,17 +167,9 @@ nav {
 .editar-deletar {
     width: 15%;
     height: 100%;
-    font-size: 20px;
+    font-size: 18px;
     background-color: rgb(198, 22, 27);
     color: beige;
     border: none;
     margin-right: 7px;
-}
-
-.produto-nome {
-    font-size: 17px;
-}
-
-.produto-descricao {
-    font-size: 14px;
 }
