@@ -51,14 +51,6 @@
     background-color: rgb(198, 22, 27);
 }
 
-#produtos {
-    background-color: blueviolet;
-}
-
-.linha {
-    display: flex;
-}
-
 nav {
     width: 40%;
     display: flex;
@@ -70,20 +62,6 @@ nav {
     font-size: 20px;
     background-color: beige;
     color: rgb(198, 22, 27);
-}
-
-#alteracao {
-    background-color: beige;
-    margin-bottom: 40px;
-}
-
-#relatorios {
-    background-color: beige;
-}
-
-.link-alteracao-relatorio:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 .caixas-nav {
@@ -98,12 +76,28 @@ nav {
     font-weight: bold;
 }
 
+#alteracao {
+    background-color: beige;
+    margin-bottom: 40px;
+}
+
+#relatorios {
+    background-color: beige;
+}
+
 .itens-alt-rel {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
+.link-alteracao-relatorio:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 
 #cadastrar-produto {
     width: 100%;

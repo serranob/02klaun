@@ -16,64 +16,7 @@
     font-size: 18px;
 }
 
-#resumo-area {
-    width: 30%;
-    margin-left: 20px;
-    background-color: beige;
-    font-weight: bold;
-    color: rgb(117, 14, 17);
-}
 
-#resumo-caixa {
-    width: 300px;
-    height: 260px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(223, 219, 184, 0.815);
-    font-size: 17px;
-    padding: 8px;
-}
-
-#resumo-linha0 {
-    margin-top: 10px;
-}
-
-.resumo-linha {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 11px;
-    padding-top: 11px;
-    border-bottom: 3px solid rgb(198, 22, 27);
-}
-
-#calcular-frete {
-    width: 102px;
-    margin: 0;
-    border: none;
-    background-color: rgb(198, 22, 27);
-    color: beige;
-    font-weight: bold;
-}
-
-#inserir-cupom {
-    width: 102px;
-    margin: 0;
-    border: none;
-}
-
-#resumo-linha3 {
-    border: none;
-}
-
-#valor-total {
-    text-align: right;
-    width: 150px;
-}
-
-#parcelas {
-    font-size: 14px;
-    text-decoration: underline;
-}
 
 .titulo-carrinho {
     margin-top: 5px;
@@ -149,7 +92,7 @@
     text-decoration: underline;
 }
 
-#continuar:hover{
+#continuar:hover {
     cursor: pointer;
 }
 
@@ -161,4 +104,63 @@
     padding: 6px;
     color: beige;
     margin-right: 40px;
+}
+
+#resumo-area {
+    width: 30%;
+    margin-left: 20px;
+    background-color: beige;
+    font-weight: bold;
+    color: rgb(117, 14, 17);
+}
+
+#resumo-caixa {
+    width: 300px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(223, 219, 184, 0.815);
+    font-size: 17px;
+    padding: 8px;
+}
+
+#resumo-linha0 {
+    margin-top: 10px;
+}
+
+.resumo-linha {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    border-bottom: 3px solid rgb(198, 22, 27);
+}
+
+#calcular-frete {
+    width: 102px;
+    margin: 0;
+    border: none;
+    background-color: rgb(198, 22, 27);
+    color: beige;
+    font-weight: bold;
+}
+
+#inserir-cupom {
+    width: 102px;
+    margin: 0;
+    border: none;
+}
+
+#resumo-linha3 {
+    border: none;
+}
+
+#valor-total {
+    text-align: right;
+    width: 150px;
+}
+
+#parcelas {
+    font-size: 14px;
+    text-decoration: underline;
 }

@@ -50,10 +50,10 @@
     display: flex;
     background-color: rgb(198, 22, 27);
     padding-bottom: 50px;
+    background-color: beige;
 }
 
 #produtos {
-    background-color: blueviolet;
     height: 580px;
 }
 
@@ -70,13 +70,10 @@ nav {
     color: rgb(198, 22, 27);
 }
 
-#alteracao {
-    background-color: beige;
-    margin-bottom: 40px;
-}
-
-#relatorios {
-    background-color: beige;
+.titulo-nav {
+    margin-bottom: 8px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .caixas-nav {
@@ -85,10 +82,13 @@ nav {
     padding-bottom: 18px;
 }
 
-.titulo-nav {
-    margin-bottom: 8px;
-    font-size: 28px;
-    font-weight: bold;
+#alteracao {
+    background-color: beige;
+    margin-bottom: 40px;
+}
+
+#relatorios {
+    background-color: beige;
 }
 
 .itens-alt-rel {
@@ -101,19 +101,6 @@ nav {
 .link-alteracao-relatorio:hover {
     text-decoration: underline;
     cursor: pointer;
-}
-
-#carrinho-conta-dashboard {
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    background-color: beige;
-    gap: 30px;
-}
-
-#conteudo-dashboard {
-    display: flex;
-    background-color: beige;
 }
 
 .titulo-produtos {
