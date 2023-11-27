@@ -1,3 +1,7 @@
+a:hover {
+    cursor: pointer;
+}
+
 #meio {
     display: flex;
     background-color: beige;

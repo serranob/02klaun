@@ -144,6 +144,15 @@
     background-color: beige;
 }
 
+#continuar {
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+#continuar:hover{
+    cursor: pointer;
+}
+
 #finalizar-compra {
     font-size: 18px;
     height: 80%;
@@ -152,9 +161,4 @@
     padding: 6px;
     color: beige;
     margin-right: 40px;
-}
-
-#continuar {
-    margin-left: 40px;
-    text-decoration: underline;
 }
