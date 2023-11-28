@@ -43,7 +43,7 @@
 }
 
 #galeria {
-    background-color: #26140c;
+    background-color:black;
     display: flex;
     list-style: none;
     justify-content: space-between;
